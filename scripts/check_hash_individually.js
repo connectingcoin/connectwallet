@@ -5,12 +5,12 @@ const { exec, execSync } = require('child_process')
 
 const file = '/static/bundle/main.js'
 const infogithub =
-    'https://api.github.com/repos/elevenyellow/coinfy/contents/public'
-const localhost = 'http://localhost:8000' //'https://coinfy.com'
-const coinfy = 'https://coinfy.com'
+    'https://api.github.com/repos/connectingcoin/connectwallet/contents/public'
+const localhost = 'http://localhost:8000' //'https://wallet.connectingcoin.io'
+const connectwallet = 'https://wallet.connectingcoin.io'
 const github =
-    'https://raw.githubusercontent.com/elevenyellow/coinfy/master/public'
-const localpath = '/Users/enzo/Copy/projects/elevenyellow/coinfy/public'
+    'https://raw.githubusercontent.com/connectingcoin/connectwallet/master/public'
+const localpath = '/Users/chatter/Copy/projects/connectingcoin/cconnectwallet/public'
 
 fetch(infogithub + file)
     .then(response => response.json())

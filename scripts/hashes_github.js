@@ -5,7 +5,7 @@ const bytes = require('utf8-bytes')
 const emailjs = require('emailjs')
 const prompt = require('prompt')
 
-const domain = 'https://reneekrom.site'
+const domain = 'https://wallet.connectingcoin.io'
 const respository = `https://api.github.com/repos/connectingcoin/connectwallet/git/trees/master`
 const extensions = ['js', 'htm', 'html', 'css']
 

@@ -3,7 +3,7 @@ const crypto = require('crypto')
 const fs = require('fs')
 const request = require('request')
 const colors = require('colors')
-const domain = 'https://reneekrom.site'
+const domain = 'https://wallet.connectingcoin.io'
 
 function readLocalFile(path) {
     return fs.readFileSync(path, 'utf8')
