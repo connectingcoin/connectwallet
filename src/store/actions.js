@@ -167,7 +167,7 @@ export function exportBackup(a_element) {
     downloadFile({
         data: btoa(unescape(encodeURIComponent(JSON.stringify(data)))),
         a: a_element,
-        name: 'YOU_MUST_RENAME_THIS_FOR_SECURITY'
+        name: 'CONNECT_WALLET_BACKUP'
     })
     setAssetsExported(true)
 }

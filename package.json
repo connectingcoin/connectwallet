@@ -1,6 +1,6 @@
 {
     "name": "connectwallet",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "repository": "https://github.com/connectingcoin/connectwallet",
     "scripts": {
         "stats": "webpack --config=./webpack/production.js --profile --json > webpack-stats.json | open https://chrisbateman.github.io/webpack-visualizer/",
